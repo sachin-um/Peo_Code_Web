@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Zen+Kurenaido&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Zen+Kurenaido&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+*{
+    margin: 0;
+    text-decoration: none;
+}
+nav{
+    height: 70px;
+    background-color: rgb(202, 0, 0);
+
+}
+nav h1
+{
+    text-align: center;
+    font-weight: bold;
+    font-size: 40px;
+    font-family: 'Roboto Condensed', sans-serif;
+    text-transform: uppercase;
+    text-shadow: 2px 2px #ff0000;
+    color: white;
+    padding: 10px;
+}
+
+.sections{
+    padding-top: 100px;
+    display: flex;
+    height: 500px;
+}
+#section1{
+    
+    background-color:#4D8BBC;    
+}
+
+#section2{
+    
+    background-color:#EDAC4D;
+    
+}
+
+
+
+#image-section{
+    padding-left: 20%;
+    display: flex;
+}
+
+.name{
+    text-transform: uppercase;
+    font-style: italic;
+    text-decoration: line-through;
+    display: block;
+    font-size: 30px;
+    font-weight: normal;
+}
+
+.character{
+    text-transform: uppercase;
+    font-style: bold;
+    font-size: 50px;
+    display: block;
+}
+
+#name1{
+    
+    font-family: 'Architects Daughter', cursive;
+    
+}
+
+#character1{
+    font-family: 'Architects Daughter', cursive;
+    color:#EDAC4D ;
+    
+}
+
+#description{
+    font-family: 'Roboto', sans-serif;
+    text-indent: 50px;
+    display: block;
+    padding-top: 50px;
+}
+
+#name2{
+    font-family: 'Zen Kurenaido', sans-serif;
+}
+
+#character2{
+    font-family: 'Zen Kurenaido', sans-serif;
+    color:rgb(202, 0, 0) ;
+}
+
+
